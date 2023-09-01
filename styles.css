@@ -4,6 +4,10 @@
     font-family: sans-serif;
     box-sizing: border-box;
 }
+@font-face {
+    font-family: norse-bold;
+    src: url("./fonts/Norse-Bold.otf")
+  }
 body {
     height: 100vh;
     display: flex;
@@ -11,28 +15,29 @@ body {
 .background-image {
     flex: 1;
     flex-grow: 2;
-    height: 100vh;
-    background-image: url("./images/halie-west-25xggax4bSA-unsplash.jpg"); */
+    background-image: url("./images/halie-west-25xggax4bSA-unsplash.jpg");
+    background-size: cover;
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    justify-content: flex-end;
 }
 .dark-background {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* margin-bottom: calc(((100vh / 14) * 9)); */
-    height: 500px;
+    margin-bottom: calc(((100vh / 14) * 9));
+    height: 480px;
     background-color: rgba(0, 0, 0, 0.507);
 }
 .odin-logo {
     background-image: url(./images/odin-lined.png);
-    background-color: rgb(255, 255, 255);
+    background-size: cover;
     height: 400px;
     width: 300px;
 }
 .odin-text {
-    font-family: sans-serif;
-    font-size: 200px;
+    font-family: norse-bold;
+    font-size: 230px;
     color: white;
 }
 .sign-up-form {
@@ -42,22 +47,24 @@ body {
     flex-direction: column;
 }
 .block-text {
-    background-color: grey;
+    background-color: #E5E7EB;
     flex-grow: 5;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     align-items: flex-start;
     padding-left: 150px;
-    padding-bottom: 190px;
-    gap: 100px;
+    padding-bottom: 160px;
+    gap: 80px;
 }
 .text1 {
-    font-size: 90px;
+    font-size: 65px;
     width: 2500px;
+    font-weight: 500;
 }
 .text2 {
-    font-size: 90px;
+    font-size: 65px;
+    font-weight: 500;
 }
 span {
     font-style: italic;
@@ -71,13 +78,14 @@ span {
     justify-content: center;
 }
 .header {
-    font-size: 90px;
+    font-size: 65px;
+    font-weight: 500;
 }
 .form {
     display: flex;
     flex-wrap: wrap;
-    gap: 250px;
-    row-gap: 80px;
+    gap: 240px;
+    row-gap: 75px;
     align-content: center;
 }
 .form-input {
@@ -85,14 +93,15 @@ span {
     flex-direction: column;
 }
 .form-input label {
-    font-size: 50px;
+    font-size: 40px;
+    font-weight: 500;
 }
 .form-input>input {
     width: 900px;
     height: 100px;
 }
 .block-button {
-    background-color: grey;
+    background-color: #E5E7EB;
     flex-grow: 5;
     display: flex;
     flex-direction: column;
@@ -104,7 +113,9 @@ span {
     height: 150px;
     width: 700px;
     font-size: 60px;
-    background-color: green;
+    font-weight: bold;
+    background-color: #596D48;
+    color: white;
 }
 .account-text {
     font-size: 60px;

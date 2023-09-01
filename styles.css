@@ -26,18 +26,18 @@ body {
     justify-content: center;
     align-items: center;
     margin-bottom: calc(((100vh / 14) * 9));
-    height: 480px;
+    height: 140px;
     background-color: rgba(0, 0, 0, 0.507);
 }
 .odin-logo {
     background-image: url(./images/odin-lined.png);
     background-size: cover;
-    height: 400px;
-    width: 300px;
+    height: 120px;
+    width: 90px;
 }
 .odin-text {
     font-family: norse-bold;
-    font-size: 230px;
+    font-size: 95px;
     color: white;
 }
 .sign-up-form {
@@ -47,45 +47,47 @@ body {
     flex-direction: column;
 }
 .block-text {
-    background-color: #E5E7EB;
+    background-color: #eff1f3;
+    flex: 1;
     flex-grow: 5;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     align-items: flex-start;
-    padding-left: 150px;
-    padding-bottom: 160px;
-    gap: 80px;
+    padding-left: 40px;
+    padding-bottom: 45px;
+    gap: 20px;
 }
 .text1 {
-    font-size: 65px;
-    width: 2500px;
+    font-size: 22px;
     font-weight: 500;
+    width: 570px;
 }
 .text2 {
-    font-size: 65px;
+    font-size: 22px;
     font-weight: 500;
 }
 .block-text>div>span {
     font-style: italic;
 }
 .block-form {
+    flex: 1;
     flex-grow: 4;
     display: flex;
     flex-direction: column;
-    padding-left: 150px;
-    gap: 80px;
+    padding-left: 40px;
+    gap: 20px;
     justify-content: center;
 }
 .header {
-    font-size: 65px;
+    font-size: 22px;
     font-weight: 500;
 }
 .form {
     display: flex;
     flex-wrap: wrap;
-    gap: 240px;
-    row-gap: 75px;
+    gap: 60px;
+    row-gap: 15px;
     align-content: center;
 }
 .form-input {
@@ -93,39 +95,40 @@ body {
     flex-direction: column;
 }
 .form-input label {
-    font-size: 40px;
+    font-size: 10px;
     font-weight: 500;
 }
 .form-input>input {
-    width: 900px;
-    height: 100px;
+    width: 210px;
+    height: 25px;
     border: 1px solid #E5E7EB;
 }
-.form-input>input:focus {
-    border: 1px solid rgb(0, 153, 255);
-}
-.form-input>input:invalid {
+/* .form-input>input:focus {
+    border: 5px solid rgb(166, 255, 0);
+} */
+/* .form-input>input:invalid {
     border: 1px solid rgb(255, 0, 0);
-}
+} */
 .block-button {
-    background-color: #E5E7EB;
+    background-color: #eff1f3;
+    flex: 1;
     flex-grow: 5;
     display: flex;
     flex-direction: column;
-    padding-left: 150px;
-    padding-top: 100px;
-    gap: 100px;
+    padding-left: 40px;
+    padding-top: 30px;
+    gap: 25px;
 }
 .button {
-    height: 150px;
-    width: 700px;
-    font-size: 60px;
+    height: 40px;
+    width: 200px;
+    font-size: 15px;
     font-weight: bold;
     background-color: #596D48;
     color: white;
 }
 .account-text {
-    font-size: 60px;
+    font-size: 15px;
 }
 a {
     color: green;
